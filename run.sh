@@ -32,7 +32,7 @@ sDir=$(pwd -P)
 popd > /dev/null
 
 # check if the jar exists or not
-utilityJar=$(find "${sDir}"/target -name 'gremlin-example*.jar' 2>/dev/null | sort -r | head -1)
+utilityJar=$(find "${sDir}"/target -name 'financeKG*.jar' 2>/dev/null | sort -r | head -1)
 if [ -z "${utilityJar}" ]; then
     echo "Please run 'mvn package' to build the project first"
     exit 1
