@@ -6,7 +6,7 @@
         <element id="directory" name="META-INF">
           <element id="file-copy" path="$PROJECT_DIR$/src/main/java/resources/META-INF/MANIFEST.MF" />
         </element>
-        <element id="module-output" name="gremlin-example" />
+        <element id="module-output" name="financeKG" />
       </element>
       <element id="library" level="project" name="Maven: org.apache.yetus:audience-annotations:0.5.0" />
       <element id="library" level="project" name="Maven: io.dropwizard.metrics:metrics-graphite:3.2.2" />

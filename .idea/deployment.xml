@@ -5,7 +5,7 @@
       <paths name="64hadoop">
         <serverdata>
           <mappings>
-            <mapping deploy="/gremlin-example" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/financeKG" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
