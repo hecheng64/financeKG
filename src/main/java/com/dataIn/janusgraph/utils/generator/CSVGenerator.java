@@ -99,7 +99,6 @@ public class CSVGenerator {
                                 TIME_FORMAT.toPattern());
                     }
                 }
-
                 cal.setTimeInMillis(
                         RandomUtils.nextLong(this.RANDOM_TIME_RANGE[0],
                                              this.RANDOM_TIME_RANGE[1]));
