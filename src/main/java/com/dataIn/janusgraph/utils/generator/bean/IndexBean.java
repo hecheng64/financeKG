@@ -1,3 +1,10 @@
+/*
+ * @Author: WenZeng Cai
+ * @Date: 2021-03-05 22:11:13
+ * @LastEditors: your name
+ * @LastEditTime: 2021-03-06 20:49:34
+ * @Description: file content
+ */
 /*******************************************************************************
  *   Copyright 2017 IBM Corp. All Rights Reserved.
  *
@@ -22,7 +29,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 @JsonInclude(Include.NON_EMPTY)
 public class IndexBean{
     public String name = null;
-    public List<String> propertyKeys;
+    public List<String> s;
     public boolean composite = false;
     public boolean unique = false;
     public String indexOnly = null;
